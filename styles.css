@@ -3,18 +3,21 @@ body{
     color: white;
     font-family:monospace;
 }
+h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
 
 .counters {
     font-size: 40px;
     height: 100px;
     display: flex;
-    border: 2px solid red;
     justify-content: space-around;
     align-items: center;
 }
 
 .selections {
-    border: 2px solid red;
     height: 100px;
     display: flex;
     gap: 40px;
@@ -35,10 +38,36 @@ body{
 }
 
 .results {
+    margin-left: 15%;
+    margin-right: 15%;
     height: 200px;
-    border: 2px solid red;
+    border: 2px solid #ba1e68;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
+}
+
+.play-again {
+
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-again button {
+    background-color: #0c164f;
+    border-radius: 10px;
+    width: 7em;
+    color: #fcfbfe;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.footer {
+    margin-top: 50%;
 }
