@@ -69,5 +69,10 @@ h1{
 }
 
 .footer {
-    margin-top: 50%;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15%;
+    height: 100px;
+    font-size: 15px;
 }
